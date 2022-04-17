@@ -9,9 +9,11 @@ body {
 
 h1 {
   font-size: 60px;
+
 }
+
 h2{
-  font-size: 40px;
+  font-size: 60px;
 }
 h3 {
   font-size: 26px;
@@ -27,7 +29,7 @@ h3 {
   height: 350px;
   width: 600px;
   text-align: center;
-  background: linear-gradient(#E96874, #6E3663, #2B0830);
+  background: linear-gradient(#0064FF, #0040A4, #002763);
   border-radius: 2px;
   box-shadow: 0 6px 12px -3px rgba(0,0,0,.3);
   color: #fff;
