@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:600i,700');
+
+body {
+  background: #fafafa;
+  display: flex;
+  text-transform: uppercase;
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+
+}
+
+h2{
+  font-size: 60px;
+}
+h3 {
+  font-size: 26px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.card {
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 600px;
+  text-align: center;
+  background: linear-gradient(#3a444e, #3a444e, #3a444e);
+  color: #fff;
+  padding: 30px;
+}
+
+.card header {
+  position: absolute;
+  top: 15px;
+  left: 10;
+  width: 100%;
+  padding: 0 10%;
+  transform: translateY(-110%);
+  transform: translateX(22%);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  position: relative;
+}
+.logo:before,
+.logo:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  
+  transform: translateY(-50%);
+}
+
+.logo:before {
+  right: 158px;
+  width: 40%;
+}
+.logo:after {
+  left: 158px;
+  width: 55%;
+}
+
+.logo span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 1px);
+}
+
+.announcement {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.inspiration {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0;
+}
+
+a {
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+
+h1, h2, h3, h4 {
+  margin: .15em 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+}
+
+.circle-image {
+  transform: translateY(-18.5%)
+}
+.circle-image img {
+  width: 55%;
+  height: 55%;
+  object-fit: cover;
+}
